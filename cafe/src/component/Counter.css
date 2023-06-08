@@ -1,0 +1,38 @@
+body{
+    width:100vw;
+    height:100vh;
+    margin:0;
+}
+
+
+img{
+    height:200px;
+    width:200px;
+}
+.prods{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+}
+button{
+    padding:10px;
+    border:none;
+    border-radius: 6px;
+}
+#count{
+    font-size: 1.3rem;
+    font-weight: 800;
+    background-color: brown;
+    padding:10px;
+    width:230px;
+}
+.prod{
+    color:white;
+    border-radius:9px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    padding:20px;
+    gap:20px;
+}

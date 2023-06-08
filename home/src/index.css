@@ -1,0 +1,28 @@
+form{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+}
+.inp{
+  display: flex;
+  flex-direction: column;
+  background-color: olive;
+  gap:20px;
+  align-items: center;
+  padding:40px;
+  width:70%;
+  border-radius: 10px;
+  color:white;
+}
+.div{
+  display: flex;
+} 
+label{
+  margin-right: 10px;
+}
+input{
+  padding:5px 10px;
+  border: none;
+  border-radius: 3px;
+}
